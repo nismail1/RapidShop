@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "JCrawl",
+            "request": "launch",
+            "mainClass": "com.example.JCrawl",
+            "projectName": "JCrawl-main"
+        },
+        {
+            "type": "java",
+            "name": "JavaFX App",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/nimoismail_1/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.example.JCrawl", // Replace with your actual JavaFX main class,
+            "projectName": "JCrawl-main"
+            
+        }
+    ]
+}
